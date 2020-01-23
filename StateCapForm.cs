@@ -14,7 +14,7 @@ namespace StatCapSearchForm
     public partial class StateCapForm : Form
     {
         //
-        private string filename = "statecap.txt";
+        private string filename = "StateCap.txt";
 
         //
         public StateCapForm()
@@ -81,7 +81,7 @@ namespace StatCapSearchForm
                 //
                 MessageBox.Show(ex.Message);
             }
-                 else
+              
             {
                 MessageBox.Show("Invalid Input", "Please enter a State and Capital.");
             }

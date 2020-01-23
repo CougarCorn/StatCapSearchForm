@@ -54,6 +54,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StateCapital.cs" />
     <EmbeddedResource Include="StateCapForm.resx">
       <DependentUpon>StateCapForm.cs</DependentUpon>
     </EmbeddedResource>
